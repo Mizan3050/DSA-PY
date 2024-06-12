@@ -17,6 +17,7 @@ class my_array():
 
     #insert
     def insert(self, index, item):
+        self.length += 1
         for i in range(index, self.length-1, -1):
             self.data[i]=self.data[i-1]
         self.data[index]=item
