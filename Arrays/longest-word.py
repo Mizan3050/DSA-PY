@@ -21,5 +21,5 @@ def easy_longest_word(character):
     return maximum, word
 
 
-string = 'fun!@#$# times'
+string = "Hello there how are you"
 print(easy_longest_word(string))
